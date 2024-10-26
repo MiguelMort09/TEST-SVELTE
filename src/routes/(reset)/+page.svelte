@@ -3,6 +3,7 @@
     import Skeleton from "$lib/controls/Skeleton.svelte";
     import {categoriesStore} from "$lib/controls/categories";
     import CategoryList from "$lib/pages/categories/CategoryList.svelte";
+    import TaskCreate from "$lib/pages/tasks/TaskCreate.svelte";
 
     let categories: CategoriesType[] = [];
     let loading: boolean = true
@@ -21,6 +22,7 @@
 <main class="max-w-7xl mx-auto sm:px-6 lg:px-8 py-10">
     <h1 class="text-xl font-bold uppercase font-mono text-gray-900 mb-5">
         Administrador de tareas
+        <TaskCreate/>
     </h1>
 
 

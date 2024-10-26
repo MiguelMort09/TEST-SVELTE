@@ -11,7 +11,6 @@
     }
 
     function handleConfirm() {
-        // Emite el evento 'confirm' al confirmar la acción
         toggleModal();
         dispatch('confirm');
     }
@@ -57,7 +56,7 @@
                 </div>
                 <div class="px-4 py-4 sm:px-5">
                     <div class="mt-4 space-y-4">
-                        <slot></slot>
+                        <slot/>
                         <div class="space-x-2 text-right">
                             <button class="text-sm p-2 text-center font-semibold bg-white hover:bg-gray-200 rounded-lg shadow-lg"
                                     on:click={toggleModal}>
