@@ -1,0 +1,30 @@
+
+@import "app.css";
+  
+  .proyects-status-3 .val {
+    @apply text-success;
+  }
+
+  .stories-status, .stories-status-0 {
+    @apply badge bg-slate-150 text-slate-800 shadow-soft shadow-slate-200/50 dark:bg-navy-500 dark:text-navy-100 dark:shadow-navy-450/50;
+  }
+  .stories-status-1 {
+    @apply badge bg-primary/10 text-primary dark:bg-accent-light/15 dark:text-accent-light;
+  }
+
+  .screens-status-0 {
+    @apply badge bg-slate-150 text-slate-800 shadow-soft shadow-slate-200/50 dark:bg-navy-500 dark:text-navy-100 dark:shadow-navy-450/50;
+  }
+  .screens-status-4, .screens-status-5 {
+    @apply badge bg-slate-100 text-slate-500 dark:bg-navy-500 dark:text-navy-300;
+  }
+  .screens-status-1, .screens-status-2 , .stories-status-2 {
+    @apply badge bg-warning text-white shadow-soft shadow-warning/50;
+  }
+  .screens-status-3 {
+    @apply badge bg-info text-white shadow-soft shadow-info/50;
+  }
+  .screens-status-6, .stories-status-3 {
+    @apply badge bg-success text-white shadow-soft shadow-success/50;
+  }
+

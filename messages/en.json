@@ -1,0 +1,6 @@
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "loading":"loading",
+    "presentation_intro_proposal":"Proposal",
+    "presentation_intro_goal":"Goals"
+}
